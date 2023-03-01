@@ -1,0 +1,86 @@
+
+.screen {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Art;
+  background: #222;
+  height: 100vh;
+  color: white;
+
+}
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+
+    @media screen and (min-width: 992px){
+      margin-bottom: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      @media screen and (min-width: 768px) {
+        font-size: 6rem;
+      }
+      @media screen and (min-width: 992px) {
+        font-size: 9rem;
+
+      }
+
+      span {
+        display: inline-block;
+        animation: var(--bounce-animation);
+        color: var(--primary);
+
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      margin-right: 1.2rem;
+      align-self: flex-end;
+
+      @media screen and (min-width: 768px) {
+      font-size: 2rem;
+        margin-right: 2.2rem;
+      }
+
+      @media screen and (min-width: 992px) {
+        font-size: 2.6rem;
+        margin-right: 4rem;
+      }
+    }
+  }
+
+.link {
+  font-size: 2rem;
+  color: var(--primary);
+  bottom: 14rem;
+  position: absolute;
+  cursor: pointer;
+  transition: opacity 0.8s, font-size 0.8s;
+  opacity: 1;
+
+
+
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
+
+   &:hover {
+     font-size: 2.2rem;
+     opacity: 0.6;
+
+     @media screen and (min-width: 768px){
+       font-size: 3.2rem;
+       opacity: 0.6;
+     }
+
+   }
+}
+
+
