@@ -1,4 +1,5 @@
 import styles from "./Intro.module.scss";
+import { Link } from "react-router-dom";
 
 function Intro() {
   return (
@@ -9,7 +10,9 @@ function Intro() {
         </h1>
         <p>Junior Web Developer</p>
       </div>
-      <div className={styles.link}>Entrer</div>
+      <Link to={"/home"} className={styles.link}>
+        Entrer
+      </Link>
     </div>
   );
 }

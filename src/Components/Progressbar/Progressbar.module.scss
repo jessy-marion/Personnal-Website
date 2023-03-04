@@ -1,0 +1,38 @@
+.bar {
+  position: relative;
+  margin: 1rem 0;
+  border: 2px solid #333;
+  height: 8px;
+  width: 65%;
+  border-radius: 20px;
+}
+
+.progress {
+  background: #4a69bd;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+
+.fifty {
+  width: 50%
+}
+
+.sixty {
+  width: 60%;
+}
+
+.seventy {
+  width: 70%;
+}
+.eighty{
+  width: 80%;
+}
+.ninety{
+  background: #4a69bd;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 90%;
+}
+

@@ -1,0 +1,47 @@
+.header {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+
+  width: 100%;
+  position: relative;
+  background: #222;
+  color: white;
+
+  ul {
+    padding: 0;
+  }
+}
+
+.links {
+  width: 95%;
+  height: 80px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  border-bottom: 1px solid #fff;
+
+  li {
+    flex: 1;
+    height: 100%;
+    display: flex;
+
+    a {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      transition: background 0.3s, color 0.3s;
+      &:hover {
+        color: #222;
+        background: white;
+      }
+    }
+
+
+  }
+}
+
+
+
