@@ -1,8 +1,8 @@
 import styles from "./Progressbar.module.scss";
-function Progressbar() {
+function Progressbar({ lvl }) {
   return (
     <div className={styles.bar}>
-      <div className={styles.ninety}></div>
+      <div className={styles.progress} style={{ width: lvl + "%" }}></div>
     </div>
   );
 }

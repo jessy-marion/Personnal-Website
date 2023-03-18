@@ -1,42 +1,51 @@
 import styles from "./CV.module.scss";
 import img from "../../assets/img/face-picture.jpg";
 import Progressbar from "../../Components/Progressbar/Progressbar";
+import Button from "../../Components/Button/Button";
+import pdf from "../../datas/pdf/CV_Jessy_Marion.pdf";
 
 function CV() {
   return (
     <main className={styles.main}>
-      <h1 className={`${styles.name} {/*b1*/}`}>Jessy Marion</h1>
-      <img src={img} alt="Jessy Marion" />
+      <h1 className={`${styles.title} {/*b1*/}`}>Curriculum vitae</h1>
+
       <section className={`${styles.profil} {/*b2*/}`}>
         <div className={styles.infoContainer}>
+          <img src={img} alt="Jessy Marion" />
           <h2>Profil</h2>
           <ul>
             <li>
+              <i className="fa-solid fa-person"></i>
+              <span>Jessy Marion</span>
+            </li>
+            <li>
               <i className="fa-solid fa-house"></i>
-              <span>Adresse</span> <br />
-              140 chemin de font Freye, 06750, Andon
+              <span>Adresse</span>
+              <p>140 chemin de font Freye, 06750, Andon</p>
             </li>
             <li>
               <i className="fa-solid fa-envelope"></i>
               <span>E-mail</span> <br />
-              <a href="mailto:jessymarionmail@gmail.com">
-                jessymarionmail@gmail.com
-              </a>
+              <p>
+                <a href="mailto:jessymarionmail@gmail.com">
+                  jessymarionmail@gmail.com
+                </a>
+              </p>
             </li>
             <li>
               <i className="fa-solid fa-phone"></i>
               <span>Telephone</span> <br />
-              07 68 65 27 45
+              <p>07 68 65 27 45</p>
             </li>
             <li>
               <i className="fa-solid fa-cake-candles"></i>
               <span>Date de naissance</span> <br />
-              23/02/1991
+              <p>23/02/1991</p>
             </li>
             <li>
               <i className="fa-solid fa-car"></i>
               <span>Permis</span> <br />
-              Permis B
+              <p>Permis B</p>
             </li>
           </ul>
         </div>
@@ -45,26 +54,30 @@ function CV() {
           <ul>
             <li>
               <i className="fa-solid fa-guitar"></i>
-              <span>Musique</span> <br />
-              Musicien multi-instrumentiste, je pratique divers instruments tels
-              que la guitare, la batterie, le synthétiseur. J'ai des
-              connaissances en M.A.O. Je suis aussi collectionneur de vinyles.
+              <span>Musique</span>
+              <p>
+                Musicien multi-instrumentiste, je pratique divers instruments
+                tels que la guitare, la batterie, le synthétiseur. J'ai des
+                connaissances en M.A.O. Je suis aussi collectionneur de vinyles.
+              </p>
             </li>
             <li>
               <i className="fa-solid fa-film"></i>
-              <span>Cinéma</span> <br />
-              Passionné de cinéma. J'ai des connaissances en montage vidéo et
-              notamment les logiciels Adobe premiere pro et Davinci Resolve.
+              <span>Cinéma</span>
+              <p>
+                Passionné de cinéma. J'ai des connaissances en montage vidéo et
+                notamment les logiciels Adobe premiere pro et Davinci Resolve.
+              </p>
             </li>
             <li>
               <i className="fa-solid fa-gamepad"></i>
-              <span>Rétro-gaming</span> <br />
-              Passion depuis mon plus jeune age.
+              <span>Rétro-gaming</span>
+              <p>Passion depuis mon plus jeune age.</p>
             </li>
             <li>
               <i className="fa-solid fa-computer"></i>
-              <span>Informatique</span> <br />
-              J'ai des connaissances en informatique hardware et software
+              <span>Informatique</span>
+              <p>J'ai des connaissances en informatique hardware et software</p>
             </li>
           </ul>
         </div>
@@ -76,41 +89,41 @@ function CV() {
               <i className="fa-brands fa-css3-alt"></i>
               <i className="fa-brands fa-sass"></i>
               <span>HTML/CSS/SASS</span> <br />
-              <Progressbar />
+              <Progressbar lvl={90} />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Distinctio, omnis!
             </li>
             <li>
               <i className="fa-brands fa-square-js"></i>
               <span>Javascript</span> <br />
-              <Progressbar />
+              <Progressbar lvl={80} />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
               nulla!
             </li>
             <li>
               <i className="fa-brands fa-react"></i>
               <span>React</span> <br />
-              <Progressbar />
+              <Progressbar lvl={70} />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
               temporibus?
             </li>
             <li>
               <i className="fa-brands fa-node-js"></i>
               <span>Node.js</span> <br />
-              <Progressbar />
+              <Progressbar lvl={50} />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Laudantium, perferendis!
             </li>
             <li>
               <span>Mongodb</span> <br />
-              <Progressbar />
+              <Progressbar lvl={50} />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Laudantium, perferendis!
             </li>
           </ul>
         </div>
       </section>
-      <section className={`${styles.formation}`}>
+      <section className={styles.formation}>
         <div className={styles.formationsContainer}>
           <h2>Formations</h2>
           <div className={styles.indivFormation}>
@@ -141,6 +154,7 @@ function CV() {
               <li>
                 Base du développement web découverte du HTML / CSS / Javascript
               </li>
+              <li>Approfondissement du Framework React</li>
               <li>Cours sur git et GitHub</li>
               <li>
                 Apprentissage des commandes Bash et utilisation d'un
@@ -163,6 +177,7 @@ function CV() {
           </div>
         </div>
       </section>
+      <Button pdf={pdf}>Télécharger le CV</Button>
     </main>
   );
 }
