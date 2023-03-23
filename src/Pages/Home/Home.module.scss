@@ -1,5 +1,71 @@
 .main {
-  height: 100vh;
+  padding: 2rem;
   background: #222;
   color: white;
+
+  @media screen and (min-width: 992px) {
+    padding: 4.5rem;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+    @media screen and (min-width: 992px) {
+      font-size: 4rem;
+      margin: 4rem 0;
+    }
+  }
+
+
+
+  section {
+  display: flex;
+  flex-direction: column;
+
+    @media screen and (min-width: 992px) {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &:nth-child(3) { //ne comprend pas pourquoi nth: child(3)
+      flex-direction: row-reverse;
+
+    }
+
+}
+
+  img {
+    margin-top: 1rem;
+    align-self: center;
+    height: 180px;
+    width: 180px;
+
+    @media screen and (min-width: 992px) {
+      margin: 2.5rem;
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    @media screen and (min-width: 992px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  p {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    line-height: 18px;
+    @media screen and (min-width: 992px) {
+      font-size: 1.6rem;
+      line-height: normal;
+    }
+  }
+
+
+
 }

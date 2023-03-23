@@ -51,7 +51,7 @@
 
   .formation {
     grid-area: formation;
-    background: #fff;
+    background:#EBEBEB;
     width: 100%;
 
     @media screen and (min-width: 992px) {
@@ -111,7 +111,7 @@
 }
 
 .formationsContainer {
-  background: #EBEBEB;
+  background: #fff;
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
