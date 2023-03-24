@@ -4,31 +4,103 @@ import profileImg from "../../assets/img/profile.png";
 import motivationImg from "../../assets/img/motivation.png";
 import goalImg from "../../assets/img/goal.png";
 const gsap = window.gsap;
-//const scrollTrigger = window.ScrollTrigger;
+const scrollTrigger = window.ScrollTrigger;
 
 function Home() {
-  const leftImgRef = useRef(null);
-  const rightImgRef = useRef(null);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const refs = {
+    firstImgRef: useRef(null),
+    secondImgRef: useRef(null),
+    thirdImgRef: useRef(null),
+    firsth2Ref: useRef(null),
+    secondh2Ref: useRef(null),
+    thirdh2Ref: useRef(null),
+    firstParaRef: useRef(null),
+    secondParaRef: useRef(null),
+    thirdParaRef: useRef(null),
+  };
+
+  /* const leftImgRef = useRef(null);
+  const rightImgRef = useRef(null);*/
+
+  //console.log(scrollTrigger.isInViewport);
 
   useLayoutEffect(() => {
-    gsap.to(leftImgRef.current, {
-      //x: 100,
-      duration: 2,
-      scrollTrigger: {
-        trigger: leftImgRef.current,
-        start: "top bottom",
-      },
+    //essayer d'optimiser au max !!!
+    //img
+    gsap.to(refs.firstImgRef.current, {
+      left: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.firstImgRef.current,
     });
-  }, []);
+    gsap.to(refs.secondImgRef.current, {
+      right: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.secondImgRef.current,
+    });
+    gsap.to(refs.thirdImgRef.current, {
+      left: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.thirdImgRef.current,
+    });
+
+    //h2
+    gsap.to(refs.firsth2Ref.current, {
+      bottom: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.firsth2Ref.current,
+    });
+    gsap.to(refs.secondh2Ref.current, {
+      bottom: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.secondh2Ref.current,
+    });
+    gsap.to(refs.thirdh2Ref.current, {
+      bottom: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.thirdh2Ref.current,
+    });
+
+    //p
+    gsap.to(refs.firstParaRef.current, {
+      bottom: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.firstParaRef.current,
+    });
+    gsap.to(refs.secondParaRef.current, {
+      bottom: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.secondParaRef.current,
+    });
+    gsap.to(refs.thirdParaRef.current, {
+      bottom: 0,
+      opacity: 1,
+      duration: 2.3,
+      scrollTrigger: refs.thirdParaRef.current,
+    });
+  }, [refs]);
 
   return (
     <main className={styles.main}>
       <h1>Présentation</h1>
       <section>
-        <img ref={leftImgRef} src={profileImg} alt="Profile" />
+        <img
+          ref={refs.firstImgRef}
+          src={profileImg}
+          alt="Profile"
+          className={styles.left}
+        />
         <div>
-          <h2>Qui suis je ?</h2>
-          <p>
+          <h2 ref={refs.firsth2Ref}>Qui suis je ?</h2>
+          <p ref={refs.firstParaRef}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad,
             animi consequatur, dicta error est eveniet expedita facere iste
             magni nam odio quam repellendus ut velit! Alias aliquam aliquid
@@ -45,10 +117,15 @@ function Home() {
         </div>
       </section>
       <section>
-        <img ref={rightImgRef} src={motivationImg} alt="Motivation" />
+        <img
+          ref={refs.secondImgRef}
+          src={motivationImg}
+          alt="Motivation"
+          className={styles.right}
+        />
         <div>
-          <h2>Pourquoi le code ?</h2>
-          <p>
+          <h2 ref={refs.secondh2Ref}>Pourquoi le code ?</h2>
+          <p ref={refs.secondParaRef}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
             atque consequatur cupiditate, dolorem doloremque ea earum id impedit
             in ipsa laborum magnam minima nisi provident, quae quas suscipit
@@ -65,10 +142,15 @@ function Home() {
         </div>
       </section>
       <section>
-        <img ref={leftImgRef} src={goalImg} alt="Goal" />
+        <img
+          ref={refs.thirdImgRef}
+          src={goalImg}
+          alt="Goal"
+          className={styles.left}
+        />
         <div>
-          <h2> Objectifs</h2>
-          <p>
+          <h2 ref={refs.thirdh2Ref}> Objectifs</h2>
+          <p ref={refs.thirdParaRef}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid
             amet consectetur cum cumque dolore dolorem earum esse ex expedita,
             harum id illum ipsam ipsum labore laboriosam magni non officia omnis
@@ -82,3 +164,5 @@ function Home() {
 }
 
 export default Home;
+
+// Todo: essayer d'optimiser les animations !!
