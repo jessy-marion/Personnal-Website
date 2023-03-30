@@ -90,35 +90,63 @@ function CV() {
               <i className="fa-brands fa-sass"></i>
               <span>HTML/CSS/SASS</span> <br />
               <Progressbar lvl={90} />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio, omnis!
+              <ul>
+                <li>✔ Très bonnes connaissances en HTML et CSS.</li>
+                <li>✔ Utilisation des flexbox et du display grid.</li>
+                <li>
+                  ✔ Je maitrise SASS et j'ai des connaissances en Bootstrap.
+                </li>
+                <li>✔ Je sais utiliser Figma pour la création de maquette.</li>
+              </ul>
             </li>
             <li>
               <i className="fa-brands fa-square-js"></i>
               <span>Javascript</span> <br />
-              <Progressbar lvl={80} />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
-              nulla!
+              <Progressbar lvl={80} />{" "}
+              <ul>
+                <li>✔ Bonnes connaissances en JS vanilla</li>
+                <li>✔ Utilisation du dom et évènements</li>
+                <li>✔ Gestion des formulaires</li>
+                <li>✔ Réseau et requête Ajax avec Fetch</li>
+                <li>✔ Asynchrone</li>
+              </ul>
             </li>
             <li>
               <i className="fa-brands fa-react"></i>
               <span>React</span> <br />
               <Progressbar lvl={70} />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
-              temporibus?
+              <ul>
+                <li>✔ Des connaissances à approfondir</li>
+                <li>✔ Markup avec JSX</li>
+                <li>
+                  ✔ Utilisation du state avec les hooks useState et useReducer
+                </li>
+                <li>✔ Je connais les hooks useRef, useEffect, useContext...</li>
+                <li>✔ Utilisation API Rest et requête AJAX avec fetch</li>
+              </ul>
             </li>
             <li>
               <i className="fa-brands fa-node-js"></i>
               <span>Node.js</span> <br />
               <Progressbar lvl={50} />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium, perferendis!
+              <ul>
+                <li>✔ J'ai déjà utilisé Node.js </li>
+                <li>✔ Utilisation de Express.js </li>
+                <li>
+                  ✔ Création de token avec jwt et hachage des données avec
+                  Bcrypt
+                </li>
+                <li>✔ Connection à la base de données</li>
+              </ul>
             </li>
             <li>
               <span>Mongodb</span> <br />
               <Progressbar lvl={50} />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium, perferendis!
+              <ul>
+                <li>✔ J'ai déjà utilisé Mongodb</li>{" "}
+                <li>✔ Connection avec mongoose</li>
+                <li>✔ Création de modeles avec mongoose</li>
+              </ul>
             </li>
           </ul>
         </div>

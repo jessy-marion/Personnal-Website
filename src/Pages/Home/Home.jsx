@@ -1,12 +1,14 @@
 import { useLayoutEffect, useRef } from "react";
 import styles from "./Home.module.scss";
 import profileImg from "../../assets/img/profile.png";
-import motivationImg from "../../assets/img/motivation.png";
-import goalImg from "../../assets/img/goal.png";
+import codeImg from "../../assets/img/codeur.gif";
+import goalImg from "../../assets/img/target-evaluation.gif";
 const gsap = window.gsap;
+// eslint-disable-next-line no-unused-vars
 const scrollTrigger = window.ScrollTrigger;
 
 function Home() {
+  //voir probleme plus bas
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const refs = {
     firstImgRef: useRef(null),
@@ -101,43 +103,44 @@ function Home() {
         <div>
           <h2 ref={refs.firsth2Ref}>Qui suis je ?</h2>
           <p ref={refs.firstParaRef}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad,
-            animi consequatur, dicta error est eveniet expedita facere iste
-            magni nam odio quam repellendus ut velit! Alias aliquam aliquid
-            asperiores autem cum cumque deserunt dignissimos distinctio dolorem
-            dolores eos, esse est et ex excepturi exercitationem fuga fugit
-            harum id illo ipsa ipsam iure libero maiores molestias mollitia
-            necessitatibus nisi nobis nostrum perspiciatis quaerat quam quos
-            recusandae repellat repudiandae, sequi totam! Asperiores atque culpa
-            debitis deserunt dolor doloremque dolores enim id incidunt laborum
-            magni, maiores minima mollitia necessitatibus nostrum, odio officia
-            officiis perferendis provident rem repudiandae sed sunt! Ab aliquid,
-            qui.
+            Salut 👋
+            <br />
+            <br />
+            Je m'appelle Jessy ! Musicien multi-instrumentiste, passionné de
+            musique et d'informatique. Depuis 2020, je me forme en autodidacte
+            au développement web. J'ai acquis de solides connaissances dans les
+            langages du web front-end que sont HTML / CSS / Javascript. Je viens
+            d'achever la formation Openclassrooms "developpeur web" et je
+            souhaite faire une alternance afin de consolider mes connaissances
+            dans la stack front-end.
           </p>
         </div>
       </section>
       <section>
         <img
           ref={refs.secondImgRef}
-          src={motivationImg}
+          src={codeImg}
           alt="Motivation"
           className={styles.right}
         />
         <div>
           <h2 ref={refs.secondh2Ref}>Pourquoi le code ?</h2>
           <p ref={refs.secondParaRef}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
-            atque consequatur cupiditate, dolorem doloremque ea earum id impedit
-            in ipsa laborum magnam minima nisi provident, quae quas suscipit
-            tempore vel velit. Ducimus ex expedita nesciunt nihil officiis
-            quasi, voluptates? Dolor eveniet explicabo impedit ipsam ipsum iste
-            iusto modi nulla numquam, placeat porro provident, quidem, veniam!
-            Ab animi, aut autem debitis deserunt eius enim eum inventore laborum
-            magnam minus mollitia nesciunt nisi non odit officia officiis quae
-            reprehenderit similique sunt. Accusantium amet aperiam commodi esse
-            facilis harum hic id labore laborum modi nemo odit officiis
-            provident quos ratione sapiente soluta, totam ut. Dicta ratione
-            suscipit voluptatibus!
+            L'informatique est un domaine dans lequel je m'épanouis totalement
+            et c'est pour ça que j'ai décidé de m'investir dans le code.
+            Adolescent, j'avais déjà essayé d'apprendre le language C mais les
+            aléas de la vie on fait que je n'ai pas pu approfondir ce domaine.
+            Mais un jour de confinement, j'ai fait quelques leçons de
+            developpement web du site Freecodecamp et là me fut embarqué dans
+            une spirale infernal et j'ai enchainé les cours dans ce domaine !
+            Etant musicien je trouve qu'il y a une similitude entre le dev et la
+            musique, le fait de coder un projet est comparable à écrire une
+            composition, c'est un process qui fait travailler notre créativité
+            et qui nous mets dans une bulle. <br />
+            J'ai ensuite décidé de synthétiser/valider mes connaissances avec la
+            formation d'Openclassrooms. Elle m'aura permis de confirmer que le
+            developemment était le domaine dans lequel je voulais me
+            professionnaliser.
           </p>
         </div>
       </section>
@@ -151,11 +154,22 @@ function Home() {
         <div>
           <h2 ref={refs.thirdh2Ref}> Objectifs</h2>
           <p ref={refs.thirdParaRef}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid
-            amet consectetur cum cumque dolore dolorem earum esse ex expedita,
-            harum id illum ipsam ipsum labore laboriosam magni non officia omnis
-            quos ratione reiciendis rerum saepe sit sunt suscipit vel! Ab ad
-            assumenda beatae exercitationem facere id minima minus neque.
+            Je souhaiterai, par le biais d'une alternance, approfondir mes
+            connaissances mais aussi découvrir la réalité professionnel. Voir
+            comment se structure une entreprise dans le milieu de
+            l'informatique. Bien sur, cette alternance me permettra de renforcer
+            mon experience et du coup mon employabilité. Mais en attendant ce
+            moment, je continue de me former dans les technologies du web et
+            particulièrement React.js ⚛️ et de réaliser des projets tels que ce
+            site ici présent ou bien le futur projet en cours de gestation :
+            AirQuality, une application qui vous donne un indice de la qualité
+            de l'air selon l'endroit voulu.
+            <br />
+            <br />
+            Au plaisir d'échanger avec vous prochainement,
+            <br />
+            <br />
+            Jessy Marion
           </p>
         </div>
       </section>

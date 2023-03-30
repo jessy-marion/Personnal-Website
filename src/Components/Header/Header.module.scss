@@ -1,16 +1,71 @@
 .header {
+  //height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  .menu {
+    font-size: 2.6rem;
+    opacity: 0.6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #555;
+
+    li {
+      margin: 1rem;
+    }
+    
+    @media screen and (min-width: 992px) {
+      display: none;
+      height: 0;
+    }
+  }
+
+
+  @media screen and (min-width: 992px) {
+    display: block;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    width: 100%;
+    position: relative;
+    background: #222;
+    color: white;
+  }
   font-family: var(--font-family);
   font-size: 1.2rem;
-
   width: 100%;
   position: relative;
   background: #222;
   color: white;
 
   ul {
-    padding: 0;
+    display: none;
+    @media screen and (min-width: 992px) {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
+
+/*.nav {
+  opacity: 0.6;
+  background: #444;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+
+}*/
+
 
 .links {
   width: 95%;
@@ -21,24 +76,53 @@
  // border-bottom: 1px solid #fff;
 
   li {
-    flex: 1;
-    height: 100%;
-    display: flex;
 
-    a {
+    @media screen and (min-width: 992px) {
+      flex: 1;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100%;
-      width: 100%;
-      transition: background 0.3s, color 0.3s;
-      &:hover {
-        color: #222;
-        background: white;
-      }
     }
 
 
+    a {
+      display: none;
+      @media screen and (min-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        transition: background 0.3s, color 0.3s;
+        &:hover {
+          color: #222;
+          background: white;
+        }
+      }
+
+
+
+
+    }
+  }
+}
+
+.hamburger {
+  /*top: 1rem;
+  right: 1rem;
+  position: fixed;*/
+  font-size: 2.6rem;
+  cursor: pointer;
+  transition: transform 0.4s;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+
+  @media screen and (min-width: 992px) {
+    display: none;
+    color: red;
   }
 }
 
