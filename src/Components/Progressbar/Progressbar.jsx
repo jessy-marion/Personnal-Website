@@ -1,7 +1,7 @@
 import styles from "./Progressbar.module.scss";
 import { useLayoutEffect, useRef } from "react";
 const gsap = window.gsap;
-const scrollTrigger = window.ScrollTrigger;
+//const scrollTrigger = window.ScrollTrigger;
 
 function Progressbar({ lvl }) {
   const progressRef = useRef(null);
