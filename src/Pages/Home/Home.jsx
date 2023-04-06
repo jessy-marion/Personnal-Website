@@ -1,11 +1,11 @@
 import { useLayoutEffect, useRef } from "react";
 import styles from "./Home.module.scss";
-import profileImg from "../../assets/img/profile.png";
+import profileImg from "../../assets/img/male-avatar.gif";
 import codeImg from "../../assets/img/codeur.gif";
 import goalImg from "../../assets/img/target-evaluation.gif";
 const gsap = window.gsap;
 // eslint-disable-next-line no-unused-vars
-const scrollTrigger = window.ScrollTrigger;
+//const scrollTrigger = window.ScrollTrigger;
 
 function Home() {
   //voir probleme plus bas
