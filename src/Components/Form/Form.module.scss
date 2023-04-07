@@ -5,3 +5,46 @@
   width: 600px;
   margin: 3rem;
 }
+
+h1 {
+  font-size: 2rem;
+  margin: 1.6rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  input {
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0.5rem 0 1rem 0;
+    height: 30px;
+  }
+
+  textarea {
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    resize: vertical;
+    height: 120px
+  }
+
+button {
+  font-size: 1rem;
+  color: white;
+  background: #FF6060;
+  margin-top: 2rem ;
+  height: 40px;
+  width: auto;
+  border-radius: 5px;
+}
+
+}
