@@ -1,9 +1,15 @@
 .formContainer {
   padding: 2rem;
   background: #FFFFFF; border-radius: 1rem;
-  height: 700px;
-  width: 600px;
-  margin: 3rem;
+  /*min-width: 400px; *///voir
+  margin: 1rem 0;
+
+
+  @media screen and (min-width: 992px) {
+    height: 650px;
+    width: 600px;
+    margin: 3rem;
+  }
 }
 
 h1 {
@@ -45,6 +51,10 @@ button {
   height: 40px;
   width: auto;
   border-radius: 5px;
+
+  &:hover {
+    background: lighten(#FF6060, 5)
+  }
 }
 
 }
