@@ -3,6 +3,6 @@
 ## Description
 Mon site perso (porffolio)
 
-## Technos $
+## Technos
 
 - React.js
