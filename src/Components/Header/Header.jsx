@@ -33,7 +33,7 @@ function Header() {
             <NavLink
               to={"/home"}
               className={({ isActive, isPending }) =>
-                isPending ? styles.isPending : isActive ? styles.isActive : ""
+                isPending ? "" : isActive ? styles.isActive : ""
               }
             >
               Home
