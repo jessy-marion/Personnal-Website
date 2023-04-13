@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styles from "./Header.module.scss";
 import { useState } from "react";
 
 function Header() {
   const [menu, setMenu] = useState(false);
+
   function handleClick() {
     setMenu(!menu);
   }
@@ -29,16 +30,44 @@ function Header() {
         )}
         <ul className={styles.links}>
           <li>
-            <Link to={"/home"}>Home</Link>
+            <NavLink
+              to={"/home"}
+              className={({ isActive, isPending }) =>
+                isPending ? styles.isPending : isActive ? styles.isActive : ""
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to={"/cv"}>CV</Link>
+            <NavLink
+              to={"/cv"}
+              className={({ isActive, isPending }) =>
+                isPending ? "" : isActive ? styles.isActive : ""
+              }
+            >
+              CV
+            </NavLink>
           </li>
           <li>
-            <Link to={"/Portfolio"}>Portfolio</Link>
+            <NavLink
+              to={"/portfolio"}
+              className={({ isActive, isPending }) =>
+                isPending ? "" : isActive ? styles.isActive : ""
+              }
+            >
+              Portfolio
+            </NavLink>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <NavLink
+              to={"/contact"}
+              className={({ isActive, isPending }) =>
+                isPending ? "" : isActive ? styles.isActive : ""
+              }
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
         <i
@@ -51,3 +80,5 @@ function Header() {
 }
 
 export default Header;
+
+//Todo: focus sur l'onglet actif !!
