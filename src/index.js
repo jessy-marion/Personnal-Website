@@ -1,21 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  /*BrowserRouter as Router, Route, Routes*/ RouterProvider,
+} from "react-router-dom";
 import "./assets/styles/index.scss";
-import Intro from "./Pages/Intro/Intro";
+/*import Intro from "./Pages/Intro/Intro";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import CV from "./Pages/CV/CV";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Contact from "./Pages/Contact/Contact";
-//import Error from "./Pages/Error/Error";
+//import Error from "./Pages/Error/Error";*/
 import reportWebVitals from "./reportWebVitals";
+import { router } from "./router";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router>
+    {/*<Router>
       <Routes>
         <Route path={"/"} element={<Intro />}></Route>
       </Routes>
@@ -27,7 +31,10 @@ root.render(
         <Route path={"/contact"} element={<Contact />}></Route>
       </Routes>
       <Footer />
-    </Router>
+    </Router>*/}
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
   </React.StrictMode>
 );
 
