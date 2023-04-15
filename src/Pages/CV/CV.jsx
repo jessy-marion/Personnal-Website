@@ -58,7 +58,8 @@ function CV() {
               <p>
                 Musicien multi-instrumentiste, je pratique divers instruments
                 tels que la guitare, la batterie, le synthétiseur. J'ai des
-                connaissances en M.A.O. Je suis aussi collectionneur de vinyles.
+                connaissances en M.A.O et une bonne maitrise du software
+                Ableton. Je suis aussi collectionneur de vinyles.
               </p>
             </li>
             <li>
@@ -66,7 +67,8 @@ function CV() {
               <span>Cinéma</span>
               <p>
                 Passionné de cinéma. J'ai des connaissances en montage vidéo et
-                notamment les logiciels Adobe premiere pro et Davinci Resolve.
+                notamment les logiciels Adobe premiere pro et Davinci Resolve
+                que j'ai pu utilisé professionnellement.
               </p>
             </li>
             <li>
@@ -77,7 +79,11 @@ function CV() {
             <li>
               <i className="fa-solid fa-computer"></i>
               <span>Informatique</span>
-              <p>J'ai des connaissances en informatique hardware et software</p>
+              <p>
+                J'ai des connaissances en informatique hardware et software. Je
+                suis familier avec les systemes Windows et Linux. Je sais
+                utilisé Visual Studio Code et Webstorm
+              </p>
             </li>
           </ul>
         </div>
@@ -145,7 +151,7 @@ function CV() {
               <ul>
                 <li>✔ J'ai déjà utilisé Mongodb</li>{" "}
                 <li>✔ Connection avec mongoose</li>
-                <li>✔ Création de modeles avec mongoose</li>
+                <li>✔ Création de modèles avec mongoose</li>
               </ul>
             </li>
           </ul>
@@ -160,7 +166,7 @@ function CV() {
               web (niv.III)
             </h3>
             <p className={styles.dates}>Juillet 2022 à Fevrier 2023</p>
-            <p className={styles.organisme}>Openclassrooms</p>
+            <p className={styles.organisme}>OpenClassrooms</p>
             <ul className={styles.puce}>
               <li>Formation à distance</li>
               <li>
@@ -193,7 +199,7 @@ function CV() {
           <div className={styles.indivFormation}>
             <h3 className={styles.diplome}>
               <i className="fa-solid fa-user-graduate"></i>Diplôme :
-              Baccalauréat Littéraire
+              Baccalauréat Littéraire (DAEU A)
             </h3>
             <p className={styles.dates}>Septembre 2019 à Juin 2020</p>
             <p className={styles.organisme}>

@@ -9,6 +9,7 @@ import gitHubIcon from "../../assets/img/github-mark-white.png";
 function Contact() {
   return (
     <main className={styles.main}>
+      <Form />
       <div className={styles.links}>
         <a href="mailto:jessymarionmail@gmail.com">
           <img src={mailIcon} alt="Email" />
@@ -20,7 +21,6 @@ function Contact() {
           <img src={gitHubIcon} alt="GitHub" />
         </a>
       </div>
-      <Form />
     </main>
   );
 }

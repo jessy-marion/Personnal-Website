@@ -14,16 +14,16 @@ function Header() {
       <nav>
         {menu && (
           <ul className={styles.menu} onClick={handleClick}>
-            <li>
+            <li className={styles.hamburgerMenuLinks}>
               <Link to={"/home"}>Home</Link>
             </li>
-            <li>
+            <li className={styles.hamburgerMenuLinks}>
               <Link to={"/cv"}>CV</Link>
             </li>
-            <li>
+            <li className={styles.hamburgerMenuLinks}>
               <Link to={"/portfolio"}>Portfolio</Link>
             </li>
-            <li>
+            <li className={styles.hamburgerMenuLinks}>
               <Link to={"/contact"}>Contact</Link>
             </li>
           </ul>

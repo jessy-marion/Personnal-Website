@@ -5,19 +5,17 @@ function Form() {
     <div className={styles.formContainer}>
       <h1>Contactez-moi :</h1>
       <form name="contact" method="post" className={styles.form}>
-        <label for="name">Nom : </label>
+        <label htmlFor="name">Nom : </label>
         <input type="text" name="name" placeholder="Nom" />
 
-        <label for="email">Email : </label>
+        <label htmlFor="email">Email : </label>
         <input type="email" name="email" placeholder="Email" />
 
-        <label for="message">Message : </label>
+        <label htmlFor="message">Message : </label>
         <textarea name="message" placeholder="Message"></textarea>
 
         <button type="submit">Envoyer</button>
-        {/*<Button />*/}
       </form>
-      ,
     </div>
   );
 }

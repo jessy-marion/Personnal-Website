@@ -101,18 +101,20 @@ function Home() {
           className={styles.left}
         />
         <div>
-          <h2 ref={refs.firsth2Ref}>Qui suis je ?</h2>
+          <h2 ref={refs.firsth2Ref}>Une petite présentation ? </h2>
           <p ref={refs.firstParaRef}>
             Salut 👋
             <br />
             <br />
-            Je m'appelle Jessy ! Musicien multi-instrumentiste, passionné de
-            musique et d'informatique. Depuis 2020, je me forme en autodidacte
-            au développement web. J'ai acquis de solides connaissances dans les
-            langages du web front-end que sont HTML / CSS / Javascript. Je viens
-            d'achever la formation Openclassrooms "developpeur web" et je
-            souhaite faire une alternance afin de consolider mes connaissances
-            dans la stack front-end.
+            Je m'appelle Jessy ! Musicien multi-instrumentiste et apprenti
+            codeur, passionné de musique et d'informatique. J'ai décidé de créer
+            ce site afin que vous puissiez en apprendre d'avantage sur moi et
+            voir les différents projets que j'ai réalisé. Depuis 2020, je me
+            forme en autodidacte au développement web. J'ai acquis de solides
+            connaissances dans les langages du web front-end que sont HTML / CSS
+            / Javascript. Je viens d'achever une formation "développeur web" de
+            niveau IV et je souhaite faire une alternance afin de consolider mes
+            connaissances dans la stack front-end.
           </p>
         </div>
       </section>
@@ -126,21 +128,18 @@ function Home() {
         <div>
           <h2 ref={refs.secondh2Ref}>Pourquoi le code ?</h2>
           <p ref={refs.secondParaRef}>
-            L'informatique est un domaine dans lequel je m'épanouis totalement
-            et c'est pour ça que j'ai décidé de m'investir dans le code.
-            Adolescent, j'avais déjà essayé d'apprendre le language C mais les
-            aléas de la vie on fait que je n'ai pas pu approfondir ce domaine.
-            Mais un jour de confinement, j'ai fait quelques leçons de
-            developpement web du site Freecodecamp et là me fut embarqué dans
-            une spirale infernal et j'ai enchainé les cours dans ce domaine !
-            Etant musicien je trouve qu'il y a une similitude entre le dev et la
-            musique, le fait de coder un projet est comparable à écrire une
-            composition, c'est un process qui fait travailler notre créativité
-            et qui nous mets dans une bulle. <br />
-            J'ai ensuite décidé de synthétiser/valider mes connaissances avec la
-            formation d'Openclassrooms. Elle m'aura permis de confirmer que le
-            developemment était le domaine dans lequel je voulais me
-            professionnaliser.
+            L'informatique est un domaine dans lequel je m'épanouis depuis
+            l'enfance. Adolescent, j'avais déjà essayé d'apprendre le language C
+            mais les aléas de la vie on fait que je n'ai pas pu approfondir ce
+            domaine. Plus tard, j'ai fait quelques cours de code sur le site
+            Freecodecamp et là je fus embarqué dans une spirale infernal et il
+            m'était difficile d'arrêter ! Etant musicien je trouve qu'il y a une
+            similitude entre le dev et la musique, le fait de coder un projet
+            est comparable à écrire une composition, c'est un process qui nous
+            pousse à être créatif et qui nous mets dans une bulle. <br />
+            J'ai ensuite décidé de synthétiser mes connaissances avec la
+            formation d'OpenClassrooms. Elle m'aura permis de confirmer que le
+            dévelopemment était le domaine dans lequel je voulais travailler.
           </p>
         </div>
       </section>
@@ -158,18 +157,18 @@ function Home() {
             connaissances mais aussi découvrir la réalité professionnel. Voir
             comment se structure une entreprise dans le milieu de
             l'informatique. Bien sur, cette alternance me permettra de renforcer
-            mon experience et du coup mon employabilité. Mais en attendant ce
-            moment, je continue de me former dans les technologies du web et
-            particulièrement React.js ⚛️ et de réaliser des projets tels que ce
-            site ici présent ou bien le futur projet en cours de gestation :
-            AirQuality, une application qui vous donne un indice de la qualité
-            de l'air selon l'endroit voulu.
+            mon experience et du coup mon employabilité futur. Mais en attendant
+            ce moment, je continue de me former dans les technologies du web et
+            particulièrement React.js et de réaliser des projets tels que le
+            site sur lequel vous naviguez ou bien le futur projet en cours de
+            gestation : AirQuality, une application qui vous donne un indice de
+            la qualité de l'air selon l'endroit voulu.
             <br />
             <br />
-            Au plaisir d'échanger avec vous prochainement,
+            Au plaisir d'échanger avec vous prochainement !
             <br />
             <br />
-            Jessy Marion
+            <strong>Jessy Marion</strong>
           </p>
         </div>
       </section>

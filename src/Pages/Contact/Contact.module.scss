@@ -3,8 +3,7 @@
   height: 100vh;
   background: #333;
   display: flex;
-  flex-direction: column-reverse;
-
+  flex-direction: column;
   justify-content: flex-start;
   padding: 3rem;
   @media screen and (min-width: 768px ) {
@@ -12,8 +11,8 @@
   }
 
   @media screen and (min-width: 992px) {
-    padding: 4rem;
-    flex-direction: row;
+    padding: 4rem 4rem 0 4rem;
+    /*flex-direction: row;*/
     align-items: center;
     justify-content: space-around;
 
@@ -26,10 +25,10 @@
     justify-content: space-around;
     flex-direction: row;
     gap: 1rem;
-    margin: 1rem 0;
+    /*margin: 1rem 0 0 0;*/
     @media screen and (min-width: 992px) {
       justify-content: center;
-      flex-direction: column;
+      /*flex-direction: column;*/
     }
 
 
@@ -48,7 +47,7 @@
       transition: transform 1.2s;
 
       &:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
       }
 
       @media screen and (min-width: 768px ) {

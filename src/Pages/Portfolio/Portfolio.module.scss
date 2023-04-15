@@ -1,4 +1,11 @@
 .portfolio {
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    @media screen and (min-width: 992px){
+      font-size: 4rem;
+    }
+  }
   color: white;
   background: #222;
   padding: 2rem;
