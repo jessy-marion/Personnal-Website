@@ -1,7 +1,7 @@
 # Site Perso
 
 ## Description
-Mon site perso (porffolio)
+Mon site perso (portfolio)
 
 ## Technos
 
