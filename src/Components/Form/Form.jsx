@@ -4,7 +4,7 @@ function Form() {
   return (
     <div className={styles.formContainer}>
       <h1>Contactez-moi :</h1>
-      <form name="contact" method="post" className={styles.form}>
+      <form name="contact" method="post" className={styles.form} netlify>
         <label htmlFor="name">Nom : </label>
         <input type="text" name="name" placeholder="Nom" />
 
