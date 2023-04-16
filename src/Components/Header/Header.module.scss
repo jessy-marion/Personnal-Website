@@ -17,7 +17,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: #555;
+    background: #222;
 
     li {
       margin: 1rem;
@@ -103,6 +103,10 @@
 .isActive {
   color: #222 !important;;
   background: white;
+}
+
+.isActiveMenu {
+  color: white !important;
 }
 
 .hamburger {

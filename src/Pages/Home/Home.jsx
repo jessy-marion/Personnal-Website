@@ -1,8 +1,8 @@
 import { useLayoutEffect, useRef } from "react";
 import styles from "./Home.module.scss";
-import profileImg from "../../assets/img/male-avatar.gif";
 import codeImg from "../../assets/img/codeur.gif";
 import goalImg from "../../assets/img/target-evaluation.gif";
+import profileImg from "../../assets/img/me.jpg";
 const gsap = window.gsap;
 // eslint-disable-next-line no-unused-vars
 //const scrollTrigger = window.ScrollTrigger;

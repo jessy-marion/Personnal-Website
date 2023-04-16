@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink /*Link*/ } from "react-router-dom";
 import styles from "./Header.module.scss";
 import { useState } from "react";
 
@@ -15,16 +15,44 @@ function Header() {
         {menu && (
           <ul className={styles.menu} onClick={handleClick}>
             <li className={styles.hamburgerMenuLinks}>
-              <Link to={"/home"}>Home</Link>
+              <NavLink
+                to={"/home"}
+                className={({ isActive, isPending }) =>
+                  isPending ? "" : isActive ? styles.isActiveMenu : ""
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li className={styles.hamburgerMenuLinks}>
-              <Link to={"/cv"}>CV</Link>
+              <NavLink
+                to={"/cv"}
+                className={({ isActive, isPending }) =>
+                  isPending ? "" : isActive ? styles.isActiveMenu : ""
+                }
+              >
+                CV
+              </NavLink>
             </li>
             <li className={styles.hamburgerMenuLinks}>
-              <Link to={"/portfolio"}>Portfolio</Link>
+              <NavLink
+                to={"/portfolio"}
+                className={({ isActive, isPending }) =>
+                  isPending ? "" : isActive ? styles.isActiveMenu : ""
+                }
+              >
+                Portfolio
+              </NavLink>
             </li>
             <li className={styles.hamburgerMenuLinks}>
-              <Link to={"/contact"}>Contact</Link>
+              <NavLink
+                to={"/contact"}
+                className={({ isActive, isPending }) =>
+                  isPending ? "" : isActive ? styles.isActiveMenu : ""
+                }
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         )}
