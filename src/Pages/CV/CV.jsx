@@ -68,7 +68,7 @@ function CV() {
               <p>
                 Passionné de cinéma. J'ai des connaissances en montage vidéo et
                 notamment les logiciels Adobe premiere pro et Davinci Resolve
-                que j'ai pu utilisé professionnellement.
+                que j'ai pu utiliser professionnellement.
               </p>
             </li>
             <li>
@@ -82,7 +82,7 @@ function CV() {
               <p>
                 J'ai des connaissances en informatique hardware et software. Je
                 suis familier avec les systemes Windows et Linux. Je sais
-                utilisé Visual Studio Code et Webstorm
+                utiliser Visual Studio Code et Webstorm.
               </p>
             </li>
           </ul>
