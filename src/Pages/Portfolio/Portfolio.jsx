@@ -23,11 +23,13 @@ function Portfolio() {
           donne l'indice de qualité de l'air, d'un lieu choisi.{" "}
           <strong>Réalisé avec React.</strong>
         </Card>
-        <Card h2={"Kasa"} image={p6Img} alt={"projet Kasa"}>
-          Création, à partir d'une maquette Figma, de la partie front-end d'un
-          site d'hébergement.{" "}
-          <strong>Réalisé avec React et React router V6.</strong>
-        </Card>
+        <a href="https://zingy-baklava-fd3702.netlify.app/">
+          <Card h2={"Kasa"} image={p6Img} alt={"projet Kasa"}>
+            Création, à partir d'une maquette Figma, de la partie front-end d'un
+            site d'hébergement.{" "}
+            <strong>Réalisé avec React et React router V6.</strong>
+          </Card>
+        </a>
         <Card
           h2={"Piiquante / Hot Takes"}
           image={p5Img}
@@ -63,7 +65,7 @@ function Portfolio() {
         <a href="https://www.jessy-marion.info">
           <Card h2={"Site Perso"} image={p8Img} alt={"projet Site Perso"}>
             Création de A à Z de mon site perso du code à la mise en ligne.{" "}
-            <strong>Utilisation de React, React router V6.</strong>
+            <strong>Utilisation de React, React router V6 et GSAP</strong>
           </Card>
         </a>
       </div>

@@ -139,7 +139,8 @@ function Home() {
             pousse à être créatif et qui nous mets dans une bulle. <br />
             J'ai ensuite décidé de synthétiser mes connaissances avec la
             formation d'OpenClassrooms. Elle m'aura permis de confirmer que le
-            dévelopemment était le domaine dans lequel je voulais travailler.
+            développement informatique était le domaine dans lequel je voulais
+            travailler.
           </p>
         </div>
       </section>
@@ -155,17 +156,18 @@ function Home() {
           <p ref={refs.thirdParaRef}>
             Je souhaiterai, par le biais d'une alternance, approfondir mes
             connaissances mais aussi découvrir la réalité professionnel. Voir
-            comment se structure une entreprise dans le milieu de
-            l'informatique. Bien sur, cette alternance me permettra de renforcer
-            mon experience et du coup mon employabilité futur. Mais en attendant
-            ce moment, je continue de me former dans les technologies du web et
-            particulièrement React.js et de réaliser des projets tels que le
-            site sur lequel vous naviguez ou bien le futur projet en cours de
-            gestation : AirQuality, une application qui vous donne un indice de
-            la qualité de l'air selon l'endroit voulu.
+            comment se structure une entreprise dans ce milieu et ajouter ma
+            pierre à l'édifice des projets d'envergure ! Bien sur, cette
+            alternance me permettra de renforcer mon experience et du coup mon
+            employabilité futur. Mais en attendant ce moment, je continue de me
+            former dans les technologies du web, particulièrement React.js et de
+            réaliser des projets tels que le site sur lequel vous naviguez.
+            Actuellement mon dernier projet en cours de gestation : AirQuality,
+            une application qui vous donne un indice de la qualité de l'air
+            selon l'endroit choisi.
             <br />
             <br />
-            Au plaisir d'échanger avec vous prochainement !
+            Au plaisir d'échanger avec vous prochainement.
             <br />
             <br />
             <strong>Jessy Marion</strong>
