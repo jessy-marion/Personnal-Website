@@ -132,7 +132,7 @@ function Home() {
             l'enfance. Adolescent, j'avais déjà essayé d'apprendre le language C
             mais les aléas de la vie on fait que je n'ai pas pu approfondir ce
             domaine. Plus tard, j'ai fait quelques cours de code sur le site
-            Freecodecamp et là je fus embarqué dans une spirale infernal et il
+            Freecodecamp et là je fus embarqué dans une spirale infernale et il
             m'était difficile d'arrêter ! Etant musicien je trouve qu'il y a une
             similitude entre le dev et la musique, le fait de coder un projet
             est comparable à écrire une composition, c'est un process qui nous
@@ -155,16 +155,16 @@ function Home() {
           <h2 ref={refs.thirdh2Ref}> Objectifs</h2>
           <p ref={refs.thirdParaRef}>
             Je souhaiterai, par le biais d'une alternance, approfondir mes
-            connaissances mais aussi découvrir la réalité professionnel. Voir
+            connaissances mais aussi découvrir la réalité professionnelle. Voir
             comment se structure une entreprise dans ce milieu et ajouter ma
-            pierre à l'édifice des projets d'envergure ! Bien sur, cette
-            alternance me permettra de renforcer mon experience et du coup mon
-            employabilité futur. Mais en attendant ce moment, je continue de me
-            former dans les technologies du web, particulièrement React.js et de
-            réaliser des projets tels que le site sur lequel vous naviguez.
-            Actuellement mon dernier projet en cours de gestation : AirQuality,
-            une application qui vous donne un indice de la qualité de l'air
-            selon l'endroit choisi.
+            pierre à l'édifice de projets d'envergure ! Bien sur, cette
+            alternance me permettra de renforcer mon experience et de ce fait
+            mon employabilité future. Mais en attendant ce moment, je continue
+            de me former dans les technologies du web, particulièrement React.js
+            et de réaliser des projets tel que le site sur lequel vous naviguez.
+            Actuellement mon dernier projet en cours de gestation :
+            <strong>AirQuality</strong>, une application qui vous donne un
+            indice de la qualité de l'air selon l'endroit choisi.
             <br />
             <br />
             Au plaisir d'échanger avec vous prochainement.

@@ -81,7 +81,7 @@ function CV() {
               <span>Informatique</span>
               <p>
                 J'ai des connaissances en informatique hardware et software. Je
-                suis familier avec les systemes Windows et Linux. Je sais
+                suis familier avec les systèmes Windows et Linux. Je sais
                 utiliser Visual Studio Code et Webstorm.
               </p>
             </li>
@@ -146,7 +146,7 @@ function CV() {
               </ul>
             </li>
             <li>
-              <span>Mongodb</span> <br />
+              <span>MongoDB</span> <br />
               <Progressbar lvl={50} />
               <ul>
                 <li>✔ J'ai déjà utilisé Mongodb</li>{" "}
