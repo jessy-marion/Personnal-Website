@@ -163,7 +163,7 @@ function CV() {
           <div className={styles.indivFormation}>
             <h3 className={styles.diplome}>
               <i className="fa-solid fa-user-graduate"></i>Diplôme : Développeur
-              web (niv.III)
+              web (niv.V)
             </h3>
             <p className={styles.dates}>Juillet 2022 à Fevrier 2023</p>
             <p className={styles.organisme}>OpenClassrooms</p>
