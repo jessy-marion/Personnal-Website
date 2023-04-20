@@ -20,7 +20,7 @@ function Portfolio() {
           alt={"projet air quality"}
         >
           (Coming soon...) Dernier projet en date : Une application web qui
-          donne l'indice de qualité de l'air, d'un lieu choisi.{" "}
+          donne l'indice de qualité de l'air d'un lieu choisi.{" "}
           <strong>Réalisé avec React.</strong>
         </Card>
         <a href="https://zingy-baklava-fd3702.netlify.app/">

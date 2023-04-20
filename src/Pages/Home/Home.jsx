@@ -162,9 +162,9 @@ function Home() {
             mon employabilité future. Mais en attendant ce moment, je continue
             de me former dans les technologies du web, particulièrement React.js
             et de réaliser des projets tel que le site sur lequel vous naviguez.
-            Actuellement mon dernier projet en cours de gestation :
-            <strong>AirQuality</strong>, une application qui vous donne un
-            indice de la qualité de l'air selon l'endroit choisi.
+            Actuellement mon dernier projet en cours de gestation : AirQuality,
+            une application qui vous donne un indice de la qualité de l'air
+            selon l'endroit choisi.
             <br />
             <br />
             Au plaisir d'échanger avec vous prochainement.
