@@ -113,7 +113,7 @@ function Home() {
             forme en autodidacte au développement web. J'ai acquis de solides
             connaissances dans les langages du web front-end que sont HTML / CSS
             / Javascript. Je viens d'achever une formation "développeur web" de
-            niveau IV et je souhaite faire une alternance afin de consolider mes
+            niveau V et je souhaite faire une alternance afin de consolider mes
             connaissances dans la stack front-end.
           </p>
         </div>
