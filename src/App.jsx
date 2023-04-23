@@ -1,4 +1,3 @@
-//import Intro from "./Pages/Intro/Intro";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import { Outlet, useLocation } from "react-router-dom";

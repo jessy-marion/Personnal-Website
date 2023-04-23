@@ -1,4 +1,7 @@
 .portfolio {
+  a{
+
+  }
   h1 {
     font-weight: bold;
     font-size: 3rem;
@@ -16,10 +19,11 @@
 }
 
 .cardContainer {
+  gap: 2.4rem;
   display: grid;
   grid-template-columns: 1fr;
   @media screen and (min-width: 992px) {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    gap: 4rem;
   }
 }

@@ -4,8 +4,6 @@ import codeImg from "../../assets/img/codeur.gif";
 import goalImg from "../../assets/img/target-evaluation.gif";
 import profileImg from "../../assets/img/me.jpg";
 const gsap = window.gsap;
-// eslint-disable-next-line no-unused-vars
-//const scrollTrigger = window.ScrollTrigger;
 
 function Home() {
   //voir probleme plus bas
@@ -22,14 +20,8 @@ function Home() {
     thirdParaRef: useRef(null),
   };
 
-  /* const leftImgRef = useRef(null);
-  const rightImgRef = useRef(null);*/
-
-  //console.log(scrollTrigger.isInViewport);
-
   useLayoutEffect(() => {
     //essayer d'optimiser au max !!!
-    //img
     gsap.to(refs.firstImgRef.current, {
       left: 0,
       opacity: 1,
@@ -179,5 +171,3 @@ function Home() {
 }
 
 export default Home;
-
-// Todo: essayer d'optimiser les animations !!

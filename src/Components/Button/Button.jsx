@@ -22,5 +22,3 @@ function Button({ children, pdf }) {
 }
 
 export default Button;
-
-//Todo: Faire en sorte que le clique sur le bouton ne sert pas exclusivement à  télécharger un pdf.. usestate maybe ?
