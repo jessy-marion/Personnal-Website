@@ -8,20 +8,27 @@ import p5Img from "../../assets/img/p5.PNG";
 import p6Img from "../../assets/img/p6.PNG";
 import p7Img from "../../assets/img/R quality.png";
 import p8Img from "../../assets/img/SitePerso.PNG";
+import p9Img from "../../assets/img/dices-master.PNG";
 
 function Portfolio() {
   return (
     <main className={styles.portfolio}>
       <h1>Portfolio :</h1>
       <div className={styles.cardContainer}>
+        <a href="https://dices-master.netlify.app/">
+          <Card h2={"Dices Master"} image={p9Img} alt={"Dices Master"}>
+            Outil permettant de faire des lancés de dés. Notamment pour des jeux
+            de rôle tel que Donjons & Dragons.{" "}
+            <strong>Javascript vanilla, HTML, CSS</strong>
+          </Card>
+        </a>
         <Card
           h2={"Air quality Project"}
           image={p7Img}
           alt={"projet air quality"}
         >
-          (Coming soon...) Dernier projet en date : Une application web qui
-          donne l'indice de qualité de l'air d'un lieu choisi.{" "}
-          <strong>Réalisé avec React.</strong>
+          (En production) Une application web qui donne l'indice de qualité de
+          l'air d'un lieu choisi. <strong>Réalisé avec React.</strong>
         </Card>
         <a href="https://zingy-baklava-fd3702.netlify.app/">
           <Card h2={"Kasa"} image={p6Img} alt={"projet Kasa"}>
