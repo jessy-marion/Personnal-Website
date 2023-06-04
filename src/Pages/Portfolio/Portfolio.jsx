@@ -9,17 +9,24 @@ import p6Img from "../../assets/img/p6.PNG";
 import p7Img from "../../assets/img/R quality.png";
 import p8Img from "../../assets/img/SitePerso.PNG";
 import p9Img from "../../assets/img/dices-master.PNG";
+import p10Img from "../../assets/img/list-app.PNG";
 
 function Portfolio() {
   return (
     <main className={styles.portfolio}>
       <h1>Portfolio :</h1>
       <div className={styles.cardContainer}>
+        <a href="https://spiffy-sundae-6b09de.netlify.app/">
+          <Card h2={"List App"} image={p10Img} alt={"List app"}>
+            Application CRUD de style annuaire. Enregistrement, modification,
+            suppression d'un utilisateur. <strong>Réalisé avec React.</strong>
+          </Card>
+        </a>
         <a href="https://dices-master.netlify.app/">
           <Card h2={"Dices Master"} image={p9Img} alt={"Dices Master"}>
             Outil permettant de faire des lancés de dés. Notamment pour des jeux
             de rôle tel que Donjons & Dragons.{" "}
-            <strong>Javascript vanilla, HTML, CSS</strong>
+            <strong>Javascript vanilla, HTML, CSS.</strong>
           </Card>
         </a>
         <Card
@@ -53,7 +60,7 @@ function Portfolio() {
         <a href="https://jessy-marion.github.io/P4-La-panthere/">
           <Card h2={"La panthère"} image={p3Img} alt={"projet La panthère"}>
             Optimisation SEO du site d'une agence web. Amélioration de l'UX.{" "}
-            <strong>Utilisation de Lighthouse, Wave et GTmetrix</strong>
+            <strong>Utilisation de Lighthouse, Wave et GTmetrix.</strong>
           </Card>
         </a>
         <a href="https://jessy-marion.github.io/P3-Ohmyfood/">
