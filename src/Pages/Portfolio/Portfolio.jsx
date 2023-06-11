@@ -16,6 +16,16 @@ function Portfolio() {
     <main className={styles.portfolio}>
       <h1>Portfolio :</h1>
       <div className={styles.cardContainer}>
+        <a href="https://airquality-project.netlify.app/">
+          <Card
+            h2={"Air quality Project"}
+            image={p7Img}
+            alt={"projet air quality"}
+          >
+            Une application web qui donne l'indice de qualité de l'air d'un lieu
+            choisi. <strong>Réalisé avec React et l'API OpenWeather.</strong>
+          </Card>
+        </a>
         <a href="https://spiffy-sundae-6b09de.netlify.app/">
           <Card h2={"List App"} image={p10Img} alt={"List app"}>
             Application CRUD de style annuaire. Enregistrement, modification,
@@ -29,14 +39,7 @@ function Portfolio() {
             <strong>Javascript vanilla, HTML, CSS.</strong>
           </Card>
         </a>
-        <Card
-          h2={"Air quality Project"}
-          image={p7Img}
-          alt={"projet air quality"}
-        >
-          (En production) Une application web qui donne l'indice de qualité de
-          l'air d'un lieu choisi. <strong>Réalisé avec React.</strong>
-        </Card>
+
         <a href="https://zingy-baklava-fd3702.netlify.app/">
           <Card h2={"Kasa"} image={p6Img} alt={"projet Kasa"}>
             Création, à partir d'une maquette Figma, de la partie front-end d'un
