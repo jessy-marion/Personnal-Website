@@ -81,7 +81,9 @@ function CV() {
               <span>Informatique</span>
               <p>
                 J'ai des connaissances en informatique hardware et software. Je
-                suis familier avec les systèmes Windows et Linux. Je sais
+                sais à quoi sert chaque composants d'un ordinateur. J'ai déjà
+                monté un PC. Je suis familier avec les systèmes Windows et Linux
+                notamment par le biais de la distribution Ubuntu. Je sais
                 utiliser Visual Studio Code et Webstorm.
               </p>
             </li>
@@ -120,15 +122,22 @@ function CV() {
             <li>
               <i className="fa-brands fa-react"></i>
               <span>React</span> <br />
-              <Progressbar lvl={70} />
+              <Progressbar lvl={80} />
               <ul>
-                <li>✔ Des connaissances à approfondir</li>
+                <li>✔ Bonnes connaissances en React</li>
                 <li>✔ Markup avec JSX</li>
                 <li>
                   ✔ Utilisation du state avec les hooks useState et useReducer
                 </li>
                 <li>✔ Je connais les hooks useRef, useEffect, useContext...</li>
                 <li>✔ Utilisation API Rest et requête AJAX avec fetch</li>
+                <li>
+                  ✔ Je sais diviser mon application en composants réutilisables
+                </li>
+                <li>
+                  ✔ Des notions de Redux notamment par le biais de React Redux
+                  Toolkit
+                </li>
               </ul>
             </li>
             <li>
@@ -165,7 +174,7 @@ function CV() {
               <i className="fa-solid fa-user-graduate"></i>Diplôme : Développeur
               web (niv.V)
             </h3>
-            <p className={styles.dates}>Juillet 2022 à Fevrier 2023</p>
+            <p className={styles.dates}>Juillet 2022 à Février 2023</p>
             <p className={styles.organisme}>OpenClassrooms</p>
             <ul className={styles.puce}>
               <li>Formation à distance</li>
@@ -194,6 +203,8 @@ function CV() {
                 Apprentissage des commandes Bash et utilisation d'un
                 environnement sous Linux
               </li>
+              <li>Cours sur des algorithmes de tri et structure de données</li>
+              <li>Découverte du langage PHP (en cours)</li>
             </ul>
           </div>
           <div className={styles.indivFormation}>
