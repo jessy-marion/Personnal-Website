@@ -29,13 +29,18 @@
   }
 
   .title {
-    font-size: 3rem;
+    font-family: var(--font-family2);
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     grid-area: title;
-    margin: 4rem 0 0 0;
+    margin: 4rem 0;
+    @media screen and (min-width: 768px) {
+      font-size: 6rem;
+    }
     @media screen and (min-width: 992px) {
-      font-size: 4rem;
+      /*font-size: 4rem;*/
+      font-size: 8rem;
     }
   }
 
