@@ -10,7 +10,7 @@ import p7Img from "../../assets/img/R quality.png";
 import p8Img from "../../assets/img/SitePerso.PNG";
 import p9Img from "../../assets/img/dices-master.PNG";
 import p10Img from "../../assets/img/list-app.PNG";
-import p11Img from "../../assets/img/ProjetPHP.PNG";
+import p11Img from "../../assets/img/pphp.PNG";
 
 function Portfolio() {
   return (
