@@ -103,10 +103,10 @@ function Home() {
             ce site afin que vous puissiez en apprendre d'avantage sur moi et
             voir les différents projets que j'ai réalisé. Depuis 2020, je me
             forme en autodidacte au développement web. J'ai acquis de solides
-            connaissances dans les langages du web front-end que sont HTML / CSS
+            connaissances dans les langages du web frontend que sont HTML / CSS
             / Javascript. Je viens d'achever une formation "développeur web" de
             niveau V et je souhaite faire une alternance afin de consolider mes
-            connaissances dans la stack front-end.
+            connaissances dans la stack frontend.
           </p>
         </div>
       </section>
@@ -126,8 +126,8 @@ function Home() {
             domaine. Plus tard, j'ai fait quelques cours de code sur le site
             Freecodecamp et là je fus embarqué dans une spirale infernale et il
             m'était difficile d'arrêter ! Etant musicien je trouve qu'il y a une
-            similitude entre le dev et la musique, le fait de coder un projet
-            est comparable à écrire une composition, c'est un process qui nous
+            similitude entre le dev et la musique, le fait de coder est
+            comparable à écrire une composition, c'est un process qui nous
             pousse à être créatif et qui nous mets dans une bulle. <br />
             J'ai ensuite décidé de synthétiser mes connaissances avec la
             formation d'OpenClassrooms. Elle m'aura permis de confirmer que le
@@ -147,18 +147,20 @@ function Home() {
           <h2 ref={refs.thirdh2Ref}> Objectifs</h2>
           <p ref={refs.thirdParaRef}>
             Je souhaiterai, par le biais d'une alternance, approfondir mes
-            connaissances mais aussi découvrir la réalité professionnelle. Voir
-            comment se structure une entreprise dans ce milieu et ajouter ma
-            pierre à l'édifice de projets d'envergure ! Bien sur, cette
-            alternance me permettra de renforcer mon experience et de ce fait
-            mon employabilité future. Mais en attendant ce moment, je continue
-            de me former dans les technologies du web, particulièrement React.js
-            et de réaliser des projets tel que le site sur lequel vous naviguez.
-            Mon dernier projet : AirQuality, une application qui vous donne un
-            indice de la qualité de l'air selon l'endroit choisi.
+            connaissances mais aussi découvrir l'informatique dans un milieu
+            professionnel et ajouter ma pierre à l'édifice de projets
+            d'envergure ! Bien sur, cette alternance me permettra de renforcer
+            mon experience et de ce fait mon employabilité future. Mais en
+            attendant ce moment, je continue de me former dans les technologies
+            du web, particulièrement React.js et de réaliser des projets tel que
+            le site sur lequel vous naviguez. Mon dernier projet : AirQuality,
+            une application qui vous donne un indice de la qualité de l'air
+            selon l'endroit choisi. Actuellement, je suis aussi en train
+            d'apprendre le PHP et le système de gestion de bases de données
+            MySQL afin de renforcer mes connaissances en backend.
             <br />
             <br />
-            Au plaisir d'échanger avec vous prochainement.
+            Au plaisir d'échanger avec vous prochainement 😀
             <br />
             <br />
             <strong>Jessy Marion</strong>
