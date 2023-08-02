@@ -5,6 +5,7 @@ import { useRef, useLayoutEffect } from "react";
 const gsap = window.gsap;
 
 function Intro() {
+  // eslint-disable-next-line
   const refs = {
     title: useRef(null),
     subtitle: useRef(null),
