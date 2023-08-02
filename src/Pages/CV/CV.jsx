@@ -118,6 +118,7 @@ function CV() {
                 <li>✔ Gestion des formulaires</li>
                 <li>✔ Réseau et requête Ajax avec Fetch</li>
                 <li>✔ Asynchrone</li>
+                <li>✔ GSAP</li>
               </ul>
             </li>
             <li>
