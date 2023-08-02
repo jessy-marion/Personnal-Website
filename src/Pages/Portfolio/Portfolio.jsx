@@ -59,7 +59,7 @@ function Portfolio() {
         >
           <Card h2={"TODO with PHP"} image={p11Img} alt={"TODO with PHP"}>
             Projet permettant l'apprentissage du language PHP et certaines
-            notions de backend. <strong>Réalisé en PHP</strong>
+            notions de backend. <strong>Réalisé en PHP.</strong>
           </Card>
         </a>
         <a
