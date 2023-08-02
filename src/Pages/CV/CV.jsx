@@ -81,10 +81,11 @@ function CV() {
               <span>Informatique</span>
               <p>
                 J'ai des connaissances en informatique hardware et software. Je
-                sais à quoi sert chaque composants d'un ordinateur. J'ai déjà
-                monté un PC. Je suis familier avec les systèmes Windows et Linux
-                notamment par le biais de la distribution Ubuntu. Je sais
-                utiliser Visual Studio Code et Webstorm.
+                sais à quoi sert chaque composants d'un ordinateur (CPU,
+                RAM...). J'ai déjà monté un PC. Je suis familier avec les
+                systèmes Windows et Linux notamment par le biais de la
+                distribution Ubuntu. Je sais utiliser Visual Studio Code et
+                Webstorm.
               </p>
             </li>
           </ul>
@@ -152,6 +153,20 @@ function CV() {
                   Bcrypt
                 </li>
                 <li>✔ Connection à la base de données</li>
+              </ul>
+            </li>
+            <li>
+              <i className="fa-brands fa-php"></i>
+              <span>PHP</span> <br />
+              <Progressbar lvl={40} />
+              <ul>
+                <li>✔ J'ai déjà manipulé du PHP </li>
+                <li>
+                  ✔ Connaissance de la syntaxe et des règles propres au PHP{" "}
+                </li>
+                <li>✔ Récupération de données issues d'un formulaire</li>
+                <li>✔ Manipulation du JSON en PHP</li>
+                <li>✔ Système de fichiers</li>
               </ul>
             </li>
             <li>
