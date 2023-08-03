@@ -12,8 +12,6 @@ function Intro() {
     link: useRef(null),
   };
 
-  console.log(refs.title.current);
-
   useLayoutEffect(() => {
     gsap.to(refs.title.current, {
       delay: 1.5,

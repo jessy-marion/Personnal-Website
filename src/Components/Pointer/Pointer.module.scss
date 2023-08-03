@@ -1,0 +1,15 @@
+.circle {
+
+  @media screen and (min-width: 992px) {
+
+  }
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  pointer-events: none;
+}
