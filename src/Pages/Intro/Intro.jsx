@@ -40,7 +40,7 @@ function Intro() {
           <span>J</span>essy <span>M</span>arion
         </h1>
         <p ref={refs.subtitle} className={styles.introAnim}>
-          Junior Web Developer
+          Développeur front-end junior
         </p>
       </div>
       <Link ref={refs.link} to={"/home"} className={styles.link}>
