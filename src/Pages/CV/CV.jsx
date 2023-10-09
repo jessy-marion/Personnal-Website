@@ -103,7 +103,7 @@ function CV() {
                 <li>✔ Très bonnes connaissances en HTML et CSS.</li>
                 <li>✔ Utilisation des flexbox et du display grid.</li>
                 <li>
-                  ✔ Je maitrise SASS et j'ai des connaissances en Bootstrap.
+                  ✔ Je maitrise SASS et j'ai des connaissances en Tailwind CSS.
                 </li>
                 <li>✔ Je sais utiliser Figma pour la création de maquette.</li>
               </ul>
@@ -159,15 +159,16 @@ function CV() {
             <li>
               <i className="fa-brands fa-php"></i>
               <span>PHP</span> <br />
-              <Progressbar lvl={40} />
+              <Progressbar lvl={50} />
               <ul>
                 <li>✔ J'ai déjà manipulé du PHP </li>
                 <li>
                   ✔ Connaissance de la syntaxe et des règles propres au PHP{" "}
                 </li>
                 <li>✔ Récupération de données issues d'un formulaire</li>
-                <li>✔ Manipulation du JSON en PHP</li>
-                <li>✔ Système de fichiers</li>
+                <li>✔ Cookies et sessions</li>
+                <li>✔ Programmation orientée objet (POO)</li>
+                <li>✔ Utilisation d'une base de donnée avec PDO</li>
               </ul>
             </li>
             <li>
@@ -177,6 +178,15 @@ function CV() {
                 <li>✔ J'ai déjà utilisé Mongodb</li>{" "}
                 <li>✔ Connection avec mongoose</li>
                 <li>✔ Création de modèles avec mongoose</li>
+              </ul>
+            </li>
+            <li>
+              <span>MySQL</span> <br />
+              <Progressbar lvl={50} />
+              <ul>
+                <li>✔ J'ai déjà crée une base de donées SQL et des tables</li>{" "}
+                <li>✔ Insertion / modification / supression de donnée</li>
+                <li>✔ Utilisation d'une base de donnée avec PHP PDO</li>
               </ul>
             </li>
           </ul>
