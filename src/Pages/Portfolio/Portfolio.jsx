@@ -42,7 +42,7 @@ function Portfolio() {
             image={p12Img}
             alt={"Mes Courses"}
           >
-            Application CRUD reliée à un serveur Mock. Reception, envoi, modification, suppression de données persistantes.
+            Application CRUD reliée à un serveur Mock. Réception, envoi, modification, suppression de données persistantes.
             <strong> Réalisé avec React, Tailwind CSS, Mock API</strong>
           </Card>
         </a>
