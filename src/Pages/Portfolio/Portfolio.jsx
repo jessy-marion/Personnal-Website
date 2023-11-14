@@ -11,6 +11,7 @@ import p8Img from "../../assets/img/SitePerso.PNG";
 import p9Img from "../../assets/img/dices-master.PNG";
 import p10Img from "../../assets/img/list-app.PNG";
 import p11Img from "../../assets/img/pphp.PNG";
+import p12Img from "../../assets/img/mescourses.PNG"
 
 function Portfolio() {
   return (
@@ -29,6 +30,20 @@ function Portfolio() {
           >
             Une application web qui donne l'indice de qualité de l'air d'un lieu
             choisi. <strong>Réalisé avec React et l'API OpenWeather.</strong>
+          </Card>
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://verdant-taiyaki-d4bdb1.netlify.app/"
+        >
+          <Card
+            h2={"Mes Courses"}
+            image={p12Img}
+            alt={"Mes Courses"}
+          >
+            Application CRUD reliée à un serveur Mock. Reception, envoi, modification, suppression de données persistantes.
+            <strong> Réalisé avec React, Tailwind CSS, Mock API</strong>
           </Card>
         </a>
         <a
