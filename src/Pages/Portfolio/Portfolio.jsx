@@ -11,13 +11,27 @@ import p8Img from "../../assets/img/SitePerso.PNG";
 import p9Img from "../../assets/img/dices-master.PNG";
 import p10Img from "../../assets/img/list-app.PNG";
 import p11Img from "../../assets/img/pphp.PNG";
-import p12Img from "../../assets/img/mescourses.PNG"
+import p12Img from "../../assets/img/mescourses.PNG";
+import p13Img from "../../assets/img/landing-page-1.PNG";
 
 function Portfolio() {
   return (
     <main className={styles.portfolio}>
       <h1>Portfolio</h1>
       <div className={styles.cardContainer}>
+        <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://playful-florentine-b8c11a.netlify.app/"
+        >
+          <Card
+              h2={"Landing Page pour Music App"}
+              image={p13Img}
+              alt={"Landing Page"}
+          >
+            Landing Page responsive pour une application de musique fictive. <strong>Réalisé avec Tailwind CSS et javascript vanilla.</strong>
+          </Card>
+        </a>
         <a
           target="_blank"
           rel="noreferrer noopener"
@@ -43,7 +57,7 @@ function Portfolio() {
             alt={"Mes Courses"}
           >
             Application CRUD reliée à un serveur Mock. Réception, envoi, modification, suppression de données persistantes.
-            <strong> Réalisé avec React, Tailwind CSS, Mock API</strong>
+            <strong> Réalisé avec React, Tailwind CSS, Mock API.</strong>
           </Card>
         </a>
         <a
