@@ -13,6 +13,7 @@ import p10Img from "../../assets/img/list-app.PNG";
 import p11Img from "../../assets/img/pphp.PNG";
 import p12Img from "../../assets/img/mescourses.PNG";
 import p13Img from "../../assets/img/landing-page-1.PNG";
+import p14Img from "../../assets/img/fizzBuzz.PNG";
 
 function Portfolio() {
   return (
@@ -81,6 +82,15 @@ function Portfolio() {
             <strong>Javascript vanilla, HTML, CSS.</strong>
           </Card>
         </a>{" "}
+        <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://657499c1648ed7014e177176--delightful-conkies-0cfc95.netlify.app/"
+        >
+          <Card h2={"Fizz Buzz"} image={p14Img} alt={"Fizz buzz"}>
+            Entrainement pour tests techniques. <strong>Réalisé en javascipt.</strong>
+          </Card>
+        </a>
         <a
           target="_blank"
           rel="noreferrer noopener"
