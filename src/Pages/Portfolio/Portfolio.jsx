@@ -14,12 +14,26 @@ import p11Img from "../../assets/img/pphp.PNG";
 import p12Img from "../../assets/img/mescourses.PNG";
 import p13Img from "../../assets/img/landing-page-1.PNG";
 import p14Img from "../../assets/img/fizzBuzz.PNG";
+import p15Img from "../../assets/img/CaptureCalculator.PNG";
 
 function Portfolio() {
   return (
     <main className={styles.portfolio}>
       <h1>Portfolio</h1>
       <div className={styles.cardContainer}>
+      <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://thriving-axolotl-e8b0a7.netlify.app/"
+        >
+          <Card
+              h2={"Calculator"}
+              image={p15Img}
+              alt={"calculator"}
+          >
+            Calculatrice dans l'esprit Abatron, fonctionnalités en cours d'intégration. <strong>Réalisé avec React + Typescript.</strong>
+          </Card>
+        </a>
         <a
             target="_blank"
             rel="noreferrer noopener"
@@ -88,7 +102,7 @@ function Portfolio() {
             href="https://657499c1648ed7014e177176--delightful-conkies-0cfc95.netlify.app/"
         >
           <Card h2={"Fizz Buzz"} image={p14Img} alt={"Fizz buzz"}>
-            Entrainement pour tests techniques. <strong>Réalisé en javascipt.</strong>
+            Entrainement pour tests techniques. <strong>Réalisé en javascript.</strong>
           </Card>
         </a>
         <a
