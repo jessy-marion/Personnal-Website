@@ -21,7 +21,7 @@ function CV() {
             <li>
               <i className="fa-solid fa-house"></i>
               <span>Adresse</span>
-              <p>140 chemin de font Freye, 06750, Andon</p>
+              <p>922 avenue de la Victoire du mai 1945,  83000 Toulon</p>
             </li>
             <li>
               <i className="fa-solid fa-envelope"></i>
@@ -119,6 +119,7 @@ function CV() {
                 <li>✔ Réseau et requête Ajax avec Fetch</li>
                 <li>✔ Asynchrone</li>
                 <li>✔ GSAP</li>
+                <li>✔ Typescript</li>
               </ul>
             </li>
             <li>
