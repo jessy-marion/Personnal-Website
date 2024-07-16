@@ -99,14 +99,15 @@ function Home() {
             <br />
             <br />
             Je m'appelle Jessy ! Musicien multi-instrumentiste et apprenti
-            codeur, passionné de musique et d'informatique. J'ai décidé de créer
+            informaticien, passionné de musique et d'informatique. J'ai décidé de créer
             ce site afin que vous puissiez en apprendre d'avantage sur moi et
             voir les différents projets que j'ai réalisé. Depuis 2020, je me
             forme en autodidacte au développement web. J'ai acquis de solides
             connaissances dans les langages du web frontend que sont HTML / CSS
             / Javascript. Je viens d'achever une formation "développeur web" de
-            niveau V et je souhaite faire une alternance afin de consolider mes
-            connaissances dans la stack frontend.
+            niveau V et je souhaite à présent obtenir un contrat de professionnalisation afin de pouvoir démarrer un BTS SIO SISR (solutions
+d'infrastructure, systèmes
+et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents métiers de l'IT.
           </p>
         </div>
       </section>
@@ -118,7 +119,7 @@ function Home() {
           className={styles.right}
         />
         <div>
-          <h2 ref={refs.secondh2Ref}>Pourquoi le code ?</h2>
+          <h2 ref={refs.secondh2Ref}>Pourquoi l'informatique ?</h2>
           <p ref={refs.secondParaRef}>
             L'informatique est un domaine dans lequel je m'épanouis depuis
             l'enfance. Adolescent, j'avais déjà essayé d'apprendre le language C
@@ -126,13 +127,9 @@ function Home() {
             domaine. Plus tard, j'ai fait quelques cours de code sur le site
             Freecodecamp et là je fus embarqué dans une spirale infernale et il
             m'était difficile d'arrêter ! Etant musicien je trouve qu'il y a une
-            similitude entre le dev et la musique, le fait de coder est
-            comparable à écrire une composition, c'est un process qui nous
+            similitude entre l'informatique et la musique, le fait de bidouiller sur un ordinateur est comparable à écrire une composition, c'est un process qui nous
             pousse à être créatif et qui nous mets dans une bulle. <br />
-            J'ai ensuite décidé de synthétiser mes connaissances avec la
-            formation d'OpenClassrooms. Elle m'aura permis de confirmer que le
-            développement informatique était le domaine dans lequel je voulais
-            travailler.
+            Après la formation Openclassrooms "Développeur web", j'ai décidé de reprendre mes études avec ce BTS afin d'augmenter mes probabilités d'embauche dans ce domaine qui m'est cher. Je compte faire une Licence informatique par la suite.
           </p>
         </div>
       </section>
@@ -148,22 +145,17 @@ function Home() {
           <p ref={refs.thirdParaRef}>
             Je souhaiterai, par le biais d'une alternance, approfondir mes
             connaissances mais aussi découvrir l'informatique dans un milieu
-            professionnel et ajouter ma pierre à l'édifice de projets
-            d'envergure ! Bien sur, cette alternance me permettra de renforcer
-            mon experience et de ce fait mon employabilité future. Mais en
-            attendant ce moment, je continue de me former dans les technologies
-            du web, particulièrement React.js et de réaliser des projets tel que
-            le site sur lequel vous naviguez. Mon dernier projet : AirQuality,
-            une application qui vous donne un indice de la qualité de l'air
-            selon l'endroit choisi. Actuellement, je suis aussi en train
-            d'apprendre le PHP et le système de gestion de bases de données
-            MySQL afin de renforcer mes connaissances en backend.
+            professionnel. Bien sur, cette alternance me permettra de débuter ma carrière et de ce fait mon employabilité future. Mais en
+            attendant ce moment, je continue de me former dans le code, les systèmes et réseaux. Ma motivation est sans limite et je suis prêt à relever tous les défis !
             <br />
             <br />
             Au plaisir d'échanger avec vous prochainement 😀
             <br />
             <br />
             <strong>Jessy Marion</strong>
+            <br />
+            <br />
+            <i>"Fait avec React.js 🐱‍👤</i>
           </p>
         </div>
       </section>
