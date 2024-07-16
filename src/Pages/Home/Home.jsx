@@ -155,7 +155,7 @@ et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents m
             <strong>Jessy Marion</strong>
             <br />
             <br />
-            <i>"Fait avec React.js 🐱‍👤</i>
+            <i>"Fait avec React.js"</i>
           </p>
         </div>
       </section>
