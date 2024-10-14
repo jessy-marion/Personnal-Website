@@ -129,7 +129,7 @@ et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents m
             m'était difficile d'arrêter ! Etant musicien je trouve qu'il y a une
             similitude entre l'informatique et la musique, le fait de bidouiller sur un ordinateur est comparable à écrire une composition, c'est un process qui nous
             pousse à être créatif et qui nous mets dans une bulle. <br />
-            Après la formation Openclassrooms "Développeur web", j'ai décidé de reprendre mes études avec ce BTS afin d'augmenter mes probabilités d'embauche dans ce domaine qui m'est cher. Je compte faire une Licence informatique par la suite.
+            Après la formation Openclassrooms "Développeur web", j'ai décidé de m'orienter vers le réseau et le sytème avec une formation TSSR. Je compte faire une Licence informatique par la suite.
           </p>
         </div>
       </section>
@@ -143,9 +143,9 @@ et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents m
         <div>
           <h2 ref={refs.thirdh2Ref}> Objectifs</h2>
           <p ref={refs.thirdParaRef}>
-            Je souhaiterai, par le biais d'une alternance, approfondir mes
+            Je souhaiterai, par le biais d'un stage, approfondir mes
             connaissances mais aussi découvrir l'informatique dans un milieu
-            professionnel. Bien sur, cette alternance me permettra de débuter ma carrière et de ce fait mon employabilité future. Mais en
+            professionnel. Bien sur, ce stage me permettra de débuter ma carrière et de ce fait mon employabilité future. Mais en
             attendant ce moment, je continue de me former dans le code, les systèmes et réseaux. Ma motivation est sans limite et je suis prêt à relever tous les défis !
             <br />
             <br />
