@@ -11,7 +11,6 @@ function CV() {
       <br />
       <Button pdf={pdf}>Télécharger le CV</Button>
       </section>
-      
     </main>
   );
 }

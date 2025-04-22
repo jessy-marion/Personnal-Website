@@ -4,6 +4,7 @@ import Intro from "./Pages/Intro/Intro";
 import Home from "./Pages/Home/Home";
 import CV from "./Pages/CV/CV";
 import Portfolio from "./Pages/Portfolio/Portfolio";
+import TSSR from "./Pages/TSSR/TSSR";
 import Contact from "./Pages/Contact/Contact";
 import Error from "./Pages/Error/Error";
 
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/tssr",
+        element: <TSSR />,
       },
       {
         path: "/*",

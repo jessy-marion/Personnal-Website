@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <p>© 2024 Jessy Marion. All rights reserved</p>
+        <p>© 2025 Jessy Marion. All rights reserved</p>
       </div>
     </footer>
   );

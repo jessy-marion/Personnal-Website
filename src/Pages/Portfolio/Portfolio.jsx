@@ -1,5 +1,6 @@
 import Card from "../../Components/Card/Card";
 import styles from "./Portfolio.module.scss";
+import { NavLink /*Link*/} from "react-router-dom";
 import p1Img from "../../assets/img/p1.PNG";
 import p2Img from "../../assets/img/p2.PNG";
 import p3Img from "../../assets/img/p3.PNG";
@@ -15,12 +16,24 @@ import p12Img from "../../assets/img/mescourses.PNG";
 import p13Img from "../../assets/img/landing-page-1.PNG";
 import p14Img from "../../assets/img/fizzBuzz.PNG";
 import p15Img from "../../assets/img/CaptureCalculator.PNG";
+import p16Img from "../../assets/img/TSSR.jpg";
 
 function Portfolio() {
   return (
     <main className={styles.portfolio}>
       <h1>Portfolio</h1>
       <div className={styles.cardContainer}>
+      <NavLink
+            to={"/tssr"}
+        >
+          <Card
+              h2={"TSSR"}
+              image={p16Img}
+              alt={"TSSR"}
+          >
+            Dossier professionnel réalisé dans le cadre de ma formation TSSR (Technicien Supérieur Systèmes et Reseaux). <strong>GLPI, Windows Server, Linux...</strong>.
+          </Card>
+        </NavLink>
       <a
             target="_blank"
             rel="noreferrer noopener"
