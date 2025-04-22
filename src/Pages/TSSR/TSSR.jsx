@@ -7,8 +7,8 @@ import dp2Img from "../../assets/img/windows_server.png"
 
 function TSSR() {
 return (
-    <main>
-        <h1 className={styles.test}>Dossier professionnel de la formation TSSR</h1>
+    <main className={styles.tssr}>
+        <h1>Dossier professionnel de la formation TSSR</h1>
         <div className={styles.dpContainer}>
         <a href={DP1}
                 target="_blank"
