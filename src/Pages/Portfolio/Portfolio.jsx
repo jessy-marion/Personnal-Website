@@ -31,7 +31,7 @@ function Portfolio() {
               image={p16Img}
               alt={"TSSR"}
           >
-            Dossier professionnel réalisé dans le cadre de ma formation TSSR (Technicien Supérieur Systèmes et Reseaux). <strong>GLPI, Windows Server, Linux...</strong>.
+            Dossier professionnel réalisé dans le cadre de ma formation TSSR (Technicien Supérieur Systèmes et Reseaux). <strong>GLPI, Windows Server, Linux...</strong>
           </Card>
         </NavLink>
       <a
