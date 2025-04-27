@@ -104,10 +104,8 @@ function Home() {
             voir les différents projets que j'ai réalisé. Depuis 2020, je me
             forme en autodidacte au développement web. J'ai acquis de solides
             connaissances dans les langages du web frontend que sont HTML / CSS
-            / Javascript. Je viens d'achever une formation "développeur web" de
-            niveau V et je souhaite à présent obtenir un contrat de professionnalisation afin de pouvoir démarrer un BTS SIO SISR (solutions
-d'infrastructure, systèmes
-et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents métiers de l'IT.
+            / Javascript. Je viens d'achever une formation TSSR ( Technicien Supérieur Systèmes et Réseaux ) de
+            niveau V et je souhaite à présent obtenir un contrat de professionnalisation afin de pouvoir démarrer un Bachelor Administration Systèmes, Réseaux et Cloud Computing.
           </p>
         </div>
       </section>
@@ -129,7 +127,7 @@ et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents m
             m'était difficile d'arrêter ! Etant musicien je trouve qu'il y a une
             similitude entre l'informatique et la musique, le fait de bidouiller sur un ordinateur est comparable à écrire une composition, c'est un process qui nous
             pousse à être créatif et qui nous mets dans une bulle. <br />
-            Après la formation Openclassrooms "Développeur web", j'ai décidé de m'orienter vers le réseau et le sytème avec une formation TSSR. Je compte faire une Licence informatique par la suite.
+            Après la formation Openclassrooms "Développeur web", j'ai décidé de m'orienter vers le réseau et les sytèmes avec une formation TSSR afin d'élargir mes connaissances. Il se trouve que c'est dans ce domaine que je souhaite m'orienter et me professionnaliser.
           </p>
         </div>
       </section>
@@ -143,10 +141,9 @@ et réseaux) . Ce BTS me permettra d'élargir mon champ vision des différents m
         <div>
           <h2 ref={refs.thirdh2Ref}> Objectifs</h2>
           <p ref={refs.thirdParaRef}>
-            Je souhaiterai, par le biais d'un stage, approfondir mes
+            Je souhaiterai, par le biais d'un contrat de professionnalisation, approfondir mes
             connaissances mais aussi découvrir l'informatique dans un milieu
-            professionnel. Bien sur, ce stage me permettra de débuter ma carrière et de ce fait mon employabilité future. Mais en
-            attendant ce moment, je continue de me former dans le code, les systèmes et réseaux. Ma motivation est sans limite et je suis prêt à relever tous les défis !
+            professionnel. Bien sur, ce contrat pro me permettra de débuter ma carrière et de ce fait mon employabilité future. Ma motivation est sans limite et je suis prêt à relever tous les défis !
             <br />
             <br />
             Au plaisir d'échanger avec vous prochainement 😀
